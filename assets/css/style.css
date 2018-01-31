@@ -16,10 +16,20 @@ section{
 	width: 70px;
 	height: 70px;
 	margin: 10px;
+	position: relative;
+	animation: mymove 5s;
+	animation-timing-function: ease;
 }
+
 .social-panel{
 	margin: auto;
-	text-align: center;
+	text-align: center;	
+}
+
+/* Standard syntax */
+@keyframes mymove {
+	from {left: -300px;}
+	to {left: 0px;}
 }
 .main-panel {
 	margin-right:2%;
